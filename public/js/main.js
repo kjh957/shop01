@@ -39,3 +39,6 @@ $(".rt_cont .fa-close").click(function(){
 $(".madals").click(function(e){
 	e.stopPropagation();
 });
+
+//메인네비 / .navs
+//firebase.database().ref("root/test").push({test:"테스트"}).key;

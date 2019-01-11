@@ -1,6 +1,7 @@
 {
   "rules": {
-    ".read": "auth != null",
-    ".write": "auth != null"
+    ".read": true,
+    ".write": true
   }
 }
+//디플로이하고 나면 폴스로 바뀜 트루로 바꿔줘야 함.
